@@ -1,9 +1,12 @@
 import CodeChallenges.FrogJump;
+import CodeChallenges.FrogJumpII;
+import CodeChallenges.HouseRobber;
+import CodeChallenges.MaximumSumOfNonAdjacentNumbers;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        FrogJump frogJump = new FrogJump();
-        int[] height = { 30, 20, 50, 10 };
-        System.out.println(frogJump.minCost(height));
+        HouseRobber sHouseRobber = new HouseRobber();
+        int[] nums = { 1, 2, 3, 1 };
+        System.out.println(sHouseRobber.rob(nums));
     }
 }
