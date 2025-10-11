@@ -1,9 +1,11 @@
 import CodeChallenges.NinjaTraining;
+import CodeChallenges.UniquePath;
 
 public class App {
     public static void main(String[] args) throws Exception {
-        NinjaTraining ninjaTraining = new NinjaTraining();
-        int[][] arr = { { 1, 2, 5 }, { 3, 1, 1 }, { 3, 3, 3 } };
-        System.out.println(ninjaTraining.maximumPoints(arr));
+        UniquePath uniquePath = new UniquePath();
+        int m = 3;
+        int n = 2;
+        System.out.println(uniquePath.uniquePath(m, n));
     }
 }
